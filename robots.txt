@@ -1,3 +1,4 @@
 User-agent: *
 Allow:/
 Sitemap: pyramidtest.netlify.app/sitemap.xml
+#DaumWebMasterTool:3404f86d4ffc97763f9aba711a6c790fa0a47716ee164b22cc806488bc41ab4e:o8AqOdbdniQP3lq+4plHkA==
