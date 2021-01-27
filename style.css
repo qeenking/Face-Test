@@ -1,0 +1,538 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .file-upload {
+    background-color: #ffffff;
+    margin: 10% 7.7%;
+    padding: 15% 10%;
+  }
+  
+  .file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1FB264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824B;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .file-upload-btn:hover {
+    background: #1AA059;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+    
+  }
+  
+  .image-upload-wrap {
+    object-fit: contain;
+    border-radius: 10px;
+    border: solid 4px var(--dark-grey-blue);
+    background-color: #ffffff;
+    border: 1.5px dashed rgb(106 118 135);
+    position: relative;
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+    background-color: #6e7074;
+    border: 1.5px dashed #ffffff;
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    text-align: center;
+  }
+  
+  .drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color:  #35465d;
+    padding: 60px 0;
+  }
+  
+  .file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .remove-image {
+    width: 46%;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+
+  .nav-distance{
+      padding: 2.1% 7.7%;
+  }
+
+  .navbar-light .navbar-brand{
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+  }
+
+  .navbar-light .navbar-toggler{
+      border-color: #ffffff;
+  }
+
+  .section{
+    margin-top: 100px;
+  }
+
+  .title{
+  font-family: NanumSquareR;
+  line-height: 1.67;
+  text-align: center;
+  color: #35465d
+  }
+
+ .subtitle{
+  font-family: NanumSquareR;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d
+ }
+
+ @media screen and (max-width: 600px){
+   html{
+     font-size: 13px;
+   }
+   .navbar-brand{
+     font-size: 1.5rem;
+   }
+ }
+
+ .youtube-link{
+  font-family: NanumSquareR;
+  line-height: 1.71;
+  font-size: 1rem;
+  text-align: center;
+  color: #f73737;
+  text-decoration: underline;
+ }
+
+ .youtube-link:hover{
+  font-family: NanumSquareR;
+  line-height: 1.71;
+  font-size: 1rem;
+  text-align: center;
+  color: #f73737;
+  text-decoration: underline;
+ }
+
+ .youtube-icon{
+  width: 8%;
+  object-fit: contain;
+ }
+
+ .file-upload{
+  border-radius: 10px;
+  border: solid 1.5px #f6f7fa;
+  background-color: #f6f7fa;
+ }
+
+ .upload{
+   width: 20%;
+   align-items: baseline;
+ }
+
+ .upload-text{
+  font-family: NanumSquareR;
+  font-size: 1.5rem;
+  line-height: 1.53;
+  text-align: center;
+  color:  #35465d;
+  width: 65%;
+  margin: 0 auto;
+ }
+
+ .bar-container {
+  height: 2.7rem;
+}
+.정치인-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.정치인-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.중소기업.사장-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(94, 230, 230, 0.2);
+}
+.중소기업.사장-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(94, 230, 230, 1);
+}
+.재벌-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.재벌-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.요리사-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
+}
+.요리사-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
+}
+.대통령-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(189, 117, 171, 0.2);
+}
+.대통령-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(189, 117, 171, 1);
+}
+.알바생-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(124, 182, 127, 0.2);
+}
+.알바생-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(124, 182, 127, 1);
+}
+.스타.연예인-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(233, 72, 128, 0.2);
+}
+.스타.연예인-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(233, 72, 128, 1);
+}
+
+.작가-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(138, 159, 231, 0.2);
+}
+.작가-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(138, 159, 231, 1);
+}
+
+.운동.스타-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(225, 235, 166, 0.2);
+}
+.운동.스타-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(225, 235, 166, 1);
+}
+
+.교사-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(186, 235, 166, 0.2);
+}
+.교사-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(186, 235, 166, 1);
+}
+
+.상인-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(238, 196, 213, 0.2);
+}
+.상인-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(238, 196, 213, 1);
+}
+
+.회사원-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(179, 238, 111, 0.2);
+}
+.회사원-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(179, 238, 111, 1);
+}
+
+.유명학자-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(212, 128, 238, 0.2);
+}
+.유명학자-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(212, 128, 238, 1);
+}
+
+.마피아.보스-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(240, 214, 130, 0.2);
+}
+.마피아.보스-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(240, 214, 130, 1);
+}
+
+.경찰-소방.공무원-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(124, 185, 226, 0.2);
+}
+.경찰-소방.공무원-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(124, 185, 226, 1);
+}
+
+.스타.예술가-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(101, 166, 226, 0.2);
+}
+.스타.예술가-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(101, 166, 226, 1);
+}
+
+.percent-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+.animal-label {
+    width: 50%;
+    text-align: left;
+    height: 2rem;
+}
+
+.result-message{
+  font-family: NanumSquareR;
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+.M-title{
+  font-size: 3.5vw;
+  font-weight: bolder;
+  color: #06f506;
+}
+
+.try-again-btn {
+  margin-top: 8%;
+  border-radius: 40px;
+  border: solid 1.5px #35465d;
+  background-color: #35465d;
+}
+
+.try-again-text {
+  font-family: NanumSquareR;
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 15px;
+}
+
+#loading {
+  display: none;
+}
+
+.text-center{
+  margin-top: 10%;
+  font-family: NanumSquareR;
+  font-size: 2.5vw;
+  font-weight: bolder;
+}
