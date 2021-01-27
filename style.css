@@ -540,6 +540,7 @@ body {
 .ad-banner{
   width: 320px;
   margin: 0 auto;
+  display: inline-block;
 }
 
 .ad-bannerr{
