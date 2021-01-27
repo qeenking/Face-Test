@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: pyramidtest.netlify.app/sitemap.xml
