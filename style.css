@@ -541,3 +541,7 @@ body {
   width: 320px;
   margin: 0 auto;
 }
+
+.ad-bannerr{
+  grid-template-columns: auto;
+}
