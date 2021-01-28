@@ -544,7 +544,7 @@ body {
 }
 
 .center.flex-center {
-  display: flex;
+  display: flow-root;;
   justify-content: center;
 }
 
